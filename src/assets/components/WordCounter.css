@@ -1,0 +1,50 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  padding: 2vw;
+  background-color: #ebe834;
+  text-align: center;
+}
+.flexColumn {
+  display: flex;
+  flex-flow: column;
+}
+.flexRow {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+.box {
+  width: 30vw;
+  height: 10vh;
+  background-color: #ffffff;
+  padding: 2vw;
+  border-radius: 0vh;
+  border: 0vh solid black;
+}
+
+.word-count {
+  font-weight: bold;
+  font-size: 4vh;
+  color: black;
+  font-weight: bold;
+}
+
+.char-count {
+  font-weight: bold;
+  font-size: 4vh;
+  color: black;
+  font-weight: bold;
+}
+.pasteButton {
+  background-color: #0af554;
+  border-radius: 2vw;
+  border: 0.2vh solid black;
+  height: 2vw;
+  width: 6vw;
+  text-align: center;
+  padding: 0.3vw;
+  position: relative;
+  left: 15vw;
+  top: 1vw;
+}
